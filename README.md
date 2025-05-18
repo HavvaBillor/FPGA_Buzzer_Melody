@@ -1,4 +1,4 @@
-#  19 Mayıs'a Özel FPGA Projesi 🇹🇷
+#  19 Mayıs'a Özel FPGA Projesi ☾☆
 
 Bu proje, 19 Mayıs Atatürk’ü Anma, Gençlik ve Spor Bayramı'na ithafen hobi amaçlı geliştirilmiştir. Spartan-6 tabanlı Alinx AX309 FPGA kartı kullanılarak tasarlanmıştır.
 
