@@ -1,0 +1,17 @@
+# Output products list for <image_rom>
+_xmsgs/pn_parser.xmsgs
+blk_mem_gen_ds512.pdf
+blk_mem_gen_readme.txt
+image_rom/doc/blk_mem_gen_ds512.pdf
+image_rom/doc/blk_mem_gen_v6_1_vinfo.html
+image_rom.asy
+image_rom.gise
+image_rom.mif
+image_rom.ngc
+image_rom.sym
+image_rom.vhd
+image_rom.vho
+image_rom.xco
+image_rom.xise
+image_rom_flist.txt
+image_rom_xmdf.tcl

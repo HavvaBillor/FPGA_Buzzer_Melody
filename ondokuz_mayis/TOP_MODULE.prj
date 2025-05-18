@@ -1,0 +1,8 @@
+vhdl work "ipcore_dir/clock_wizard.vhd"
+vhdl work "ipcore_dir/clock_wizard/example_design/clock_wizard_exdes.vhd"
+vhdl work "ipcore_dir/image_rom.vhd"
+vhdl work "../../RECALL/GENÇLİĞE HİTABE/vga_sync.vhd"
+vhdl work "../../RECALL/GENÇLİĞE HİTABE/Term_Project_Library.vhd"
+vhdl work "../../RECALL/GENÇLİĞE HİTABE/vga_controller.vhd"
+vhdl work "../../RECALL/GENÇLİĞE HİTABE/tone_generator.vhd"
+vhdl work "top_module.vhd"
