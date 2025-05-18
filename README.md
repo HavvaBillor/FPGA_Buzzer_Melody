@@ -19,6 +19,7 @@ Bu proje, 19 Mayıs Atatürk’ü Anma, Gençlik ve Spor Bayramı'na ithafen hob
 
 - Melodi frekansları için:  
   [https://etkilesimliogrenme.com/arduino-buzzer-istiklal-marsi](https://etkilesimliogrenme.com/arduino-buzzer-istiklal-marsi)
+- VGA ve FPGA tasarımında ilham alınan proje: [kunkcu/fpga-digital-oscilloscope](https://github.com/kunkcu/fpga-digital-oscilloscope)
 
 
 
