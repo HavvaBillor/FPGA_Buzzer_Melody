@@ -36,15 +36,15 @@ component VGA_Sync is
     Port ( 
 
         CLK : in std_logic;
-		  bg_blue : in std_logic_vector (4 downto 0);
-		  bg_green: in std_logic_vector (5 downto 0);
-		  bg_red: in std_logic_vector (4 downto 0);
+	bg_blue : in std_logic_vector (4 downto 0);
+	bg_green: in std_logic_vector (5 downto 0);
+	bg_red: in std_logic_vector (4 downto 0);
         H_PosOut, V_PosOut : out std_logic_vector(11 downto 0);
         VGA_HS, VGA_VS : out std_logic;
         VGA_B : out std_logic_vector (4 downto 0);
-		  VGA_G: out std_logic_vector (5 downto 0);
-		  VGA_R: out std_logic_vector (4 downto 0)
-		  );
+	VGA_G: out std_logic_vector (5 downto 0);
+	VGA_R: out std_logic_vector (4 downto 0)
+	);
 end component;
 
 
@@ -107,7 +107,7 @@ VGA_Sync_Module: VGA_Sync
         port map(
 
             CLK       => CLK,
-				bg_blue   => bg_blue,
+	    bg_blue   => bg_blue,
             bg_red    => bg_red,
             bg_green  => bg_green,
             H_PosOut  => H_Pos,
@@ -147,13 +147,13 @@ begin
 
 		if (V_Pos < yFrameTop - 20) then -- Top
 
-						  if (draw_string(conv_integer(H_Pos), conv_integer(V_Pos), 300 - 32 , 32, " GENCLIGE HITABE", false, 3)) then
+			if (draw_string(conv_integer(H_Pos), conv_integer(V_Pos), 300 - 32 , 32, " GENCLIGE HITABE", false, 3)) then
 						  
-								bg_red <= (others => '1');
-								bg_green <= (others => '1');
-								bg_blue <= (others => '1');
+				bg_red <= (others => '1');
+				bg_green <= (others => '1');
+				bg_blue <= (others => '1');
 
-							end if;
+			end if;
 
 		elsif (V_Pos >= yFrameTop and V_Pos <= yFrameTop + yFrameHeight) then -- Middle
 
@@ -180,24 +180,24 @@ begin
 				
 				if (draw_string(conv_integer(H_Pos), conv_integer(V_Pos), 100 , 500, "Ey Turk Gencligi! Birinci vazifen Turk", false, 2)) then
 
-								bg_red <= (others => '1');
-								bg_green <= (others => '1');
-								bg_blue <= (others => '1');
+						bg_red <= (others => '1');
+						bg_green <= (others => '1');
+						bg_blue <= (others => '1');
 				elsif (draw_string(conv_integer(H_Pos), conv_integer(V_Pos), 100 , 550, "istiklalini, Turk Cumhuriyeti'ni ilelebet,", false, 2)) then
 
-								bg_red <= (others => '1');
-								bg_green <= (others => '1');
-								bg_blue <= (others => '1');
+						bg_red <= (others => '1');
+						bg_green <= (others => '1');
+						bg_blue <= (others => '1');
 				elsif (draw_string(conv_integer(H_Pos), conv_integer(V_Pos), 100 , 600, "muhafaza ve mudafaa etmektir.", false, 2)) then
 
-								bg_red <= (others => '1');
-								bg_green <= (others => '1');
-								bg_blue <= (others => '1');
+						bg_red <= (others => '1');
+						bg_green <= (others => '1');
+						bg_blue <= (others => '1');
 				elsif (draw_string(conv_integer(H_Pos), conv_integer(V_Pos), 400 , 650, "Gazi Mustafa Kemal Ataturk", false, 2)) then
 
-								bg_red <= (others => '1');
-								bg_green <= (others => '1');
-								bg_blue <= (others => '1');
+						bg_red <= (others => '1');
+						bg_green <= (others => '1');
+						bg_blue <= (others => '1');
 
 				end if;  
 		end if;
@@ -205,7 +205,6 @@ begin
 
 
 end process;
-
 
 end Behavioral;
 
