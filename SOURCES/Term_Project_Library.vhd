@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------------------
 
--- Havva Billor
+-- Copyright (c) 2022 Burak Künkçü
 
 -- Term Project - TermProjectLibrary (Library)
 
